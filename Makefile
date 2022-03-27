@@ -34,5 +34,6 @@ fclean: clean
 	rm -f $(NAME)
 	rm -rf .*.un~
 	make fclean -C ./lib/my
+tests_run: all
 
 re:	fclean all
